@@ -28,6 +28,75 @@ header {
     position: absolute;
     left: 373px;
     top: 49px;
+    cursor: pointer;
+}
+
+.menu-hamburguer {
+    position: absolute;
+    background-color: #084154;
+    width: 565px;
+    height: 249px;
+    flex-direction: row;
+    border: 2px solid #3EC6E0;
+    border-radius: 5px;
+    top: 101.48px;
+    left: 344px;
+    box-shadow: 10px 10px #3EC6E0;
+    animation-duration: 1s;
+}
+
+@keyframes showSidebar {
+    from {margin-left: -100vw;}
+    to {margin-left: 344px;}
+}
+
+.menu-hamburguer li {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-hamburguer h3 {
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFF;
+    padding-bottom: 19px;
+}
+
+.menu-hamburguer a {
+    text-decoration: none;
+    color: #FFF;
+    font-weight: 400;
+    font-size: 14px;
+    padding-bottom: 19px;
+    vertical-align: middle;
+}
+
+.menu-hamburguer a:hover {
+    width: 166px;
+    height: 33px;
+    background: #3EC6E0;
+    border-radius: 5px;
+    border: none;
+    
+}
+
+.jogos-luta {
+    position: absolute;
+    top: 45px;
+    left: 46px;
+}
+
+.jogos-aa {
+    position: absolute;
+    top: 45px;
+    left: 229px;
+}
+
+.jogos-corrida {
+    position: absolute;
+    top: 45px;
+    left: 400px;
 }
 
 .logo-n1 {
@@ -55,13 +124,6 @@ header {
 }
 
 
-/*
-.menu-hamburguer a {
-    text-decoration: none;
-    color: #FFF;
-} */
-
-
 nav a {
     color: #FFF;
     text-decoration: none;
@@ -79,7 +141,6 @@ nav a {
 .conteudo-banner-principal {
     width: 420px;
     height: 327px;
-    /* left: 1015px; */
     top: 209px;
 
 }
