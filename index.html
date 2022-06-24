@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="./app.js"></script>
+    <script src="./menu-hamburguer.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
@@ -13,12 +14,12 @@
 </head>
 <body>
     <header>
-        <div class="menu">
-            <div onclick="toggleSidebar()" class="icone-hamburguer">
+        <div class="menu" id="header">
+            <div onclick="toggleSidebar()" class="icone-hamburguer" id="icone-hamburguer">
                 <img src="./img/icon_hamburguer.png" alt="Ícone do Menu">
             </div>
 
-            <ul class="menu-hamburguer" id="navigation_header">
+            <!-- <ul class="menu-hamburguer" id="navigation_header">
                 <div class="jogos-luta">
                         <li><h3>Luta</h3>
                         <li><a href="#">Mortal Kombat</a></li>
@@ -41,7 +42,7 @@
                     <li><a href="#">NEED for SPEED</a></li>
                     <li><a href="#">Forza Horizon</a></li> 
                 </div>
-            </ul>
+            </ul> -->
 
         
 

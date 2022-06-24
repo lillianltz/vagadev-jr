@@ -72,14 +72,14 @@ header {
     vertical-align: middle;
 }
 
-.menu-hamburguer a:hover {
+/* .menu-hamburguer a:hover {
     width: 166px;
     height: 33px;
     background: #3EC6E0;
     border-radius: 5px;
     border: none;
     
-}
+} */
 
 .jogos-luta {
     position: absolute;
